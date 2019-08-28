@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <div>
+        <h1>
+            THE CALC
+        </h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+            <tr>
+                <td>
+                    calculator
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="input" placeholder="0" readonly="readonly">
+                    <input type="text" id="answer" readonly="readonly">
+                </td>
+            </tr>
+            </tr>
+            <!-- header ends -->
+            <tr>
+                <td>
+                    <input type="button" value=" CE " onclick="clearAll()">
+                    <input type="button" value=" &#8592 " onclick="backSpace()">
+                    <input type="button" value=" + " onclick="getOperand('+')" style="width: 120px">
+                    <br>
+                    <input type="button" value="1" onclick="getNumber(1)">
+                    <input type="button" value="2" onclick="getNumber(2)">
+                    <input type="button" value="3" onclick="getNumber(3)">
+                    <input type="button" value="-" onclick="getOperand('-')">
+                    <br>
+                    <input type="button" value="4" onclick="getNumber(4)">
+                    <input type="button" value="5" onclick="getNumber(5)">
+                    <input type="button" value="6" onclick="getNumber(6)">
+                    <input type="button" value="*" onclick="getOperand('*')">
+                    <br>
+                    <input type="button" value="7" onclick="getNumber(7)">
+                    <input type="button" value="8" onclick="getNumber(8)">
+                    <input type="button" value="9" onclick="getNumber(9)">
+                    <input type="button" value="/" onclick="getOperand('/')">
+                    <br>
+                    <input type="button" value="+/-" onclick="getOperand('+/-')">
+                    <input type="button" value="0" onclick="getNumber(0)">
+                    <input type="button" value="=" onclick="compute()" style="width: 120px">
+                </td>
+
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
